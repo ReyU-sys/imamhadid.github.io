@@ -148,3 +148,10 @@ li {
   html {
     scroll-behavior: smooth;
   }
+  #watch {
+    padding-left: 50px;
+    color:black;
+    margin: auto;
+    font-size: 32px;
+    -webkit-text-stroke: 3px black;
+  }
