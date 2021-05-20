@@ -34,6 +34,5 @@ $(document).ready(function(){
       document.getElementById("watch").innerHTML = Time;
       requestAnimationFrame(clock);
     }
-
     requestAnimationFrame(clock);
 });
