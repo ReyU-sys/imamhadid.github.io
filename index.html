@@ -1,29 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Imam Hadid Gunawan</title>
-</head>
-<body>
-    <h1 class="text-center" data-aos="fade-up" data-aos-duration="1000">Imam Hadid Gunawan</h1>
-</body>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-        window.onload = function() {
-            var iframe = document.createElement('iframe');
-            iframe.style.display = "none";
-            iframe.src = url ;
-            document.body.appendChild(iframe);
-        };
-        $('[data-aos]').parent().addClass('hideOverflowOnMobile');
-    </script>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="fa.css">
+        <title>Imam Hadid Gunawan</title>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navbar">
+                <h3 class="nav-logo">Portofolio</h3>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#bio" class="nav-link">Bio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#life" class="nav-link">Pengalaman</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#sosmed" class="nav-link">Sosial Media</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+    </header>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
+            <h3>About Me</h3>
+        </div>
+        <div class="container mt-5" id="bio">
+            <div class="row" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col mt-15">
+                    <table>
+                        <tr>
+                            <td style="font-weight: 900;">
+                                Nama
+                            </td>
+                            <td>
+                                Imam Hadid Gunawan
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: 900;">
+                                T,TL
+                            </td>
+                            <td>
+                                Balikpapan, 12 Febuari 97
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: 900;">
+                                Kampus
+                            </td>
+                            <td>
+                                "UM" Universitas Mulia
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: 900;">
+                                Jurusan
+                            </td>
+                            <td>
+                                Informatika
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: 900;">
+                                Hobby
+                            </td>
+                            <td>
+                                Kamera
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: 900;">
+                                Motto
+                            </td>
+                            <td>
+                                <p style="font-style: italic;">
+                                    "Kapal pasti akan menujuh ke pelabuhan"
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: 900;">
+                                Project Active
+                            </td>
+                            <td>
+                                <br>
+                                <br>
+                                <a href="https://hanagaleri.com">HanaGaleri</a>
+                                Invitation Project
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://i.postimg.cc/vBpd3SpZ/28750.jpg" alt="Avatar" style="width:300px;height:550px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>Hadit</h1>
+                            <p>Programer & Design</p>
+                            <p style="text-align: justify;margin: 20px;">
+                                Dibesarkan oleh seorang bibi (saudara ayah) dan belajar mandiri (merantau sendiri) ketika duduk dibangku kelas 2 SMK.
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-15" data-aos="fade-up" data-aos-duration="1000" id="life">
+            <h3>Pengalaman dan Kemampuan</h3>
+        </div>
+        <div class="container mt-15">
+            <div class="row" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col text-center">
+                    <h3>Design</h3>
+                    <h5>Event Organaizer</h5>
+                    <div class="row mt-5">
+                        <div class="col text-center">
+                            Adobe PhotoShop
+                            <br>
+                            Adobe Illustrator
+                            <br>
+                            Adobe Premier
+                            <br>
+                            Adobe After Effect
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <h3>FrontEnd</h3>
+                    <h5>
+                        Hana Galeri
+                        <br>
+                        Hingga saat ini
+                    </h5>
+                    <div class="row mt-5">
+                        <div class="col text-center">
+                            HTML
+                            <br>
+                            Bootstrap
+                            <br>
+                            CSS Native
+                            <br>
+                            Java Script
+                            <br>
+                            PHP
+                            <br>
+                            Laravel
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <h3>Mechanic 4x4</h3>
+                    <h5>
+                        Pt. Transkon Jaya tbk.
+                        <br>
+                        Rebuild Mechanic 3 tahun 
+                    </h5>
+                    <div class="row mt-5">
+                        <div class="col text-center">
+                            O/H Engine 4x4
+                            <br>
+                            O/H Transmission
+                            <br>
+                            O/H Transfer 4x4
+                            <br>
+                            O/H Diffrential
+                            <br>
+                            O/H Steering Rack
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-15" data-aos="fade-up" data-aos-duration="1000" id="sosmed">
+            <h3>Sosial Media</h3>
+        </div>
+        <div class="row mt-5 text-center" data-aos="fade-up" data-aos-duration="1000">
+            <div class="col">
+                <a href="https://www.instagram.com/adit_vanh/">
+                    <i style="color: black;" class="fa fa-5x fa-instagram" aria-hidden="true"></i>
+                </a>
+                <br>
+                Instagram
+            </div>
+            <div class="col">
+                <a href="https://www.linkedin.com/in/hadit1297/">
+                    <i style="color: black;" class="fa fa-5x fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+                <br>
+                Linkend
+            </div>
+            <div class="col">
+                <a href="https://github.com/imamhadid">
+                    <i style="color: black;" class="fa fa-5x fa-github-square" aria-hidden="true"></i>
+                </a>
+                <br>
+                Github
+            </div>
+        </div>
+        <div class="text-center mt-15" data-aos="fade-up" data-aos-duration="1000">
+            <i class="fa fa-2x fa-envelope" aria-hidden="true"></i>
+            <br>
+            Slow Respon
+            <br>
+            E-Mail
+            <br>
+            Imamhadid792@gmail.com
+            <h4 class="mt-15">Kontak Fast Respon</h4>
+            Line
+            <br>
+            <a href="http://line.me/ti/p/hadit120"><img src="line.png" alt="Line"></a>
+        </div>
+    <footer class="container Text-left mt-15">
+        My Coding Always Made With <i style="color: red;" class="fa fa-heart" aria-hidden="true"></i>
+    </footer>
+    </body>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+            window.onload = function() {
+                var iframe = document.createElement('iframe');
+                iframe.style.display = "none";
+                iframe.src = url ;
+                document.body.appendChild(iframe);
+            };
+            $('[data-aos]').parent().addClass('hideOverflowOnMobile');
+        </script>
+        <script src="main.js"></script>
 </html>
