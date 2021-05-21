@@ -158,25 +158,25 @@ li {
   body {
       background-color: whitesmoke;
   }
-.dropbtn {
+.previewbtn {
     padding: 16px;
     font-size: 16px;
     border: none;
   }
-  .dropdown {
+  .preview {
     position: relative;
     display: inline-block;
   }
-  .dropdown-content {
+  .preview-content {
     display: none;
     position: absolute;
     background-color: transparent;
     z-index: 1;
   }
-  .dropdown-content a {
+  .preview-content a {
     text-decoration: none;
     display: block;
   }
-  .dropdown-content a:hover {background-color: transparent;}
-  .dropdown:hover .dropdown-content {display: block;}
-  .dropdown:hover .dropbtn {background-color: transparent;}
+  .preview-content a:hover {background-color: transparent;}
+  .preview:hover .preview-content {display: block;}
+  .preview:hover .previewbtn {background-color: transparent;}
