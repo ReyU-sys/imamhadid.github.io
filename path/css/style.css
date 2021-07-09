@@ -1,0 +1,174 @@
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 550px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .header{
+    border-bottom: 1px solid #E2E8F0;
+}
+li {
+    list-style: none;
+}
+.mt-15 {
+    margin-top: 150px;
+}
+#mysosial {
+  opacity: 0;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  #watch {
+    padding-left: 50px;
+    color:black;
+    margin: auto;
+    font-size: 32px;
+    -webkit-text-stroke: 3px black;
+  }
+.previewbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .preview {
+    position: relative;
+    display: inline-block;
+  }
+  .preview-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    z-index: 1;
+  }
+  .preview-content a {
+    text-decoration: none;
+    display: block;
+  }
+  .preview-content a:hover {
+    background-color: transparent;
+  }
+  .preview:hover .preview-content {
+    display: block;
+  }
+  .preview:hover .previewbtn {
+    background-color: transparent;
+  }
+
+  :root {
+    --keyframeTop: 0;
+    --keyframeBottom: 98vh;
+    --keyframeLeftStart: 2vw;
+    --keyframeLeftEnd: 10vw;
+    --animationDuration: 5s;
+    --width: 5px;
+    --height: 5px;
+    --red: 500;
+    --green: 500;
+    --blue: 500;
+  }
+  
+  .drop {
+    width: var(--width);
+    height: var(--height);
+    border-radius: 50%;
+    position: absolute;
+    animation: dropping var(--animationDuration) ease-in infinite;
+    top: var(--keyframeTop);
+    left: var(--keyframeLeftStart);
+    background-color: rgb(var(--red),var(--green), var(--blue));
+  }
+  
+  @keyframes dropping {
+    0% {
+      top: var(--keyframeTop);
+      left: var(--keyframeLeftStart);
+      background-color: rgb(var(--red),var(--green), var(--blue));
+    }
+    50% {
+      background-color: rgb(var(--green),var(--blue), var(--red));
+    }
+    100% {
+      top: var(--keyframeBottom);
+      left: var(--keyframeLeftEnd);
+      background-color: rgb(var(--blue),var(--red), var(--green));
+    }
+  }
+
+  .position {
+    background-color: ghostwhite !important;
+    padding-top: 10%;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 100%;
+    position: fixed;
+    z-index: 99999;
+    right: 80px;
+  }
+
+  .point {
+    background-color: white !important;
+    border-radius: 20px;
+    font-size: 10px;
+    width: 55px;
+    text-align: center;
+  }
+  .point:hover{
+    background-color: gainsboro !important;
+    border-radius: 50px;
+    height: 15px;
+    width: 55px;
+    transform: rotate(-10deg) scale(2);
+    border:1px;
+    border-color: hotpink;
+  }
+  .point:active {
+    background-color: whitesmoke !important;
+  }
