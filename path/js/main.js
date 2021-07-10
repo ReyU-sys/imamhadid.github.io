@@ -88,35 +88,11 @@ $(document).ready(function(){
     requestAnimationFrame(clock);
 });
 
-$(window).scroll(function() {
-    $('section').each(function(i) {
-      if ($(this).position().top <= $(window).scrollTop()) {
-        $('body').css('background-color', $(this).attr('data-color'));
-      }
-    });
-  });
-
-let root = document.documentElement;
-let rain = document.querySelectorAll('.drop');
-
-function getMaxInt(max) {
-  return Math.floor(Math.random() * Math.floor(max));
-}
-
-function getMinMaxInt(min, max) {
-  return Math.random() * (max - min) + min;
-}
-setInterval(() => {
-  let ran = getMaxInt(86);
-  let skew = ran + getMaxInt(10);
-  let circle = `${getMinMaxInt(10,15)}px`;
-  root.style.setProperty('--keyframeLeftStart', `${ran}vw`);
-  root.style.setProperty('--keyframeLeftEnd', `${skew}vw`);  
-  root.style.setProperty('--animationDuration', `${ getMaxInt(2500)}ms`); 
-  root.style.setProperty('--width', circle);
-  root.style.setProperty('--height', circle);
-  root.style.setProperty('--red', getMinMaxInt(100, 255));
-  root.style.setProperty('--green', getMinMaxInt(100, 255));
-  root.style.setProperty('--blue', getMinMaxInt(100, 255));
-}, getMaxInt(3500))
+// $(window).scroll(function() {
+//     $('section').each(function(i) {
+//       if ($(this).position().top <= $(window).scrollTop()) {
+//         $('body').css('background-color', $(this).attr('data-color'));
+//       }
+//     });
+//   });
 

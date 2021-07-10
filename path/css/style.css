@@ -102,46 +102,6 @@ li {
     background-color: transparent;
   }
 
-  :root {
-    --keyframeTop: 0;
-    --keyframeBottom: 98vh;
-    --keyframeLeftStart: 2vw;
-    --keyframeLeftEnd: 10vw;
-    --animationDuration: 5s;
-    --width: 5px;
-    --height: 5px;
-    --red: 500;
-    --green: 500;
-    --blue: 500;
-  }
-  
-  .drop {
-    width: var(--width);
-    height: var(--height);
-    border-radius: 50%;
-    position: absolute;
-    animation: dropping var(--animationDuration) ease-in infinite;
-    top: var(--keyframeTop);
-    left: var(--keyframeLeftStart);
-    background-color: rgb(var(--red),var(--green), var(--blue));
-  }
-  
-  @keyframes dropping {
-    0% {
-      top: var(--keyframeTop);
-      left: var(--keyframeLeftStart);
-      background-color: rgb(var(--red),var(--green), var(--blue));
-    }
-    50% {
-      background-color: rgb(var(--green),var(--blue), var(--red));
-    }
-    100% {
-      top: var(--keyframeBottom);
-      left: var(--keyframeLeftEnd);
-      background-color: rgb(var(--blue),var(--red), var(--green));
-    }
-  }
-
   .position {
     background-color: ghostwhite !important;
     padding-top: 10%;
@@ -171,4 +131,8 @@ li {
   }
   .point:active {
     background-color: whitesmoke !important;
+  }
+  body {
+    overflow-y: hidden;
+    overflow-x: hidden;
   }
