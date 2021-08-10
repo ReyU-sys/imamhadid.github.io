@@ -1,270 +1,560 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="path/css/style.css">
-        <title>Imam Hadid Gunawan</title>
-    </head>
-    <body>
-        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-        <div id="list-example" class="position list-group">
-            <a id="me" class="my-5 point" href="#about"><i class="fa fa-address-card-o" aria-hidden="true">Me</i></a>
-            <a id="exp" class="my-5 point" href="#sosial"><i class="fa fa-code-fork" aria-hidden="true">Experience</i></a>
-            <a id="sos" class="my-5 point" href="#media"><i class="fa fa-phone" aria-hidden="true">SosMed</i></a>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Portofolio</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Vendor CSS Files -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: Port polio
+  * Author: Imam Hadid Gunawan
+  * License: -
+  ======================================================== -->
+</head>
+
+<body>
+
+    <!-- ======= Mobile nav toggle button ======= -->
+    <button type="button" class="mobile-nav-toggle d-xl-none"><i class="fa fa-bars"></i></button>
+
+    <!-- ======= Header ======= -->
+    <header id="header">
+        <div class="d-flex flex-column">
+
+            <div class="profile">
+                <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+                <h1 class="text-light"><a href="index.html">Imam Hadid</a></h1>
+                <div class="social-links mt-3 text-center">
+                    <!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
+                    <a href="https://www.facebook.com/Ahogaru/" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/adit_vanh" class="instagram"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/hadit1297/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <nav class="nav-menu">
+                <ul>
+                    <li class="active"><a href="#hero"><i class="fa fa-home"></i> <span>Home</span></a></li>
+                    <li><a href="#about"><i class="fa fa-user"></i> <span>About</span></a></li>
+                    <li><a href="#resume"><i class="fa fa-file"></i> <span>Resume</span></a></li>
+                    <li><a href="#portfolio"><i class="fa fa-book"></i> Portfolio</a></li>
+                    <li><a href="#services"><i class="fa fa-server"></i> Services</a></li>
+                    <li><a href="#contact"><i class="fa fa-envelope"></i> Contact</a></li>
+
+                </ul>
+            </nav>
+            <!-- .nav-menu -->
+            <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
         </div>
-        <main id="main" data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
-            <section class="container" id="about">
-                <div id="myabout">
-                    <div class="text-center">
-                        <h3>About Me</h3>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+        <div class="hero-container" data-aos="fade-in">
+            <h1>Imam Hadid</h1>
+            <p>
+                <!-- <i class="fa fa-square fa-stack-2x"></i> -->
+                <i class="fa fa-terminal"></i> <span class="typed" data-typed-items="Hi I'm Student,Hi I'm  Designer,Hi I'm  Developer,Hi I'm  Photographer"></span></p>
+        </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>About</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4" data-aos="fade-right">
+                        <img src="assets/img/me.JPG" class="img-fluid profile-img-1" alt="">
                     </div>
-                    <div class="container" id="bio">
+                    <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                        <h3>Photographer &amp; Web Developer Freelance.</h3>
+                        <p class="font-italic">
+                            <span class="typeds" data-typeds-items="Wakut adalah sebuah mesin berjalan yang tidak dapat dihentikan maupun di kembalikan, Penyesalan bukan akhir dari segalanya dan hal tersebut dapat dijadikan pelajaran"></span>
+                        </p>
                         <div class="row">
-                            <div class="col mt-5">
-                                <table>
-                                    <tr>
-                                        <td style="font-weight: 900;">
-                                            Name
-                                        </td>
-                                        <td>
-                                            Imam Hadid Gunawan
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="font-weight: 900;vertical-align: text-top;">
-                                            Born
-                                        </td>
-                                        <td>
-                                            Balikpapan, 12 Febuari 97
-                                            <p style="font-style: italic;"></p>
-                                                Indonesia,<i style="color: red;" class="fa fa-heart" aria-hidden="true"></i>
-                                                <br>
-                                                Pure JaKa (Jawa & Kalimantan),<i style="color: red;" class="fa fa-heart" aria-hidden="true"></i>
-                                            </p>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="font-weight: 900;vertical-align: text-top;">
-                                            Campus
-                                        </td>
-                                        <td>
-                                            <p style="font-style: italic;">
-                                                "UM"
-                                                Universitas Mulia Balikpapan
-                                                <span style="font-size: 10px;">(2020 until now)</span>
-                                            </p>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="font-weight: 900;vertical-align: text-top;">
-                                            Major
-                                        </td>
-                                        <td>
-                                            S1 Informatika
-                                            <br>
-                                            <p style="font-style: italic;">
-                                            Mobile App Dev
-                                            </p>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="font-weight: 900;">
-                                            Hobby
-                                        </td>
-                                        <td>
-                                            Photography, Traveling
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="font-weight: 900; vertical-align: text-top;">
-                                            Motto
-                                        </td>
-                                        <td>
-                                            <p style="font-style: italic;">
-                                                "The Time Never Sleep"
-                                            </p>
-                                            <div class="preview">
-                                                <p class="previewbtn" id="watch"></p>
-                                                <div class="preview-content">
-                                                    <br>
-                                                    <p style="font-style: italic;">
-                                                        sleep it if you can
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="font-weight: 900;">
-                                            Project Active
-                                        </td>
-                                        <td>
-                                            <br>
-                                            <br>
-                                            <div class="preview">
-                                                <p class="previewbtn" style="font-style: italic; font-weight: 900; font-size: 16px;">
-                                                    <a href="https://hanagaleri.com">HanaGaleri</a>
-                                                    <br>
-                                                  Invitation Project
-                                                </p>
-                                                <div class="preview-content">
-                                                    <iframe src="https://hanagaleri.com" frameborder="0" style="width: 300px;height: 300px;"></iframe>
-                                                </div>
-                                              </div>
-                                            <br>
-                                            <p class="previewbtn" style="font-style: italic; font-weight: 900; font-size: 16px;">
-                                                <a href="#">M.O.C.S. </a> (Man Of Creativity Studio)
-                                                <br>
-                                                Software House Project
-                                            </p>
-                                        </td>
-                                    </tr>
-                                </table>
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><i class="fa fa-chevron-right"></i> <strong>Birthday:</strong> Febuary 1997</li>
+                                    <li><i class="fa fa-chevron-right"></i> <strong>City:</strong> Balikpapan, Kalimantan Timur</li>
+                                </ul>
                             </div>
-                            <div class="col">
-                                <img src="https://avatars.githubusercontent.com/u/76889574?s=400&u=40749489cc4d9d478cd7c0909baf1c4ab2847468&v=4" class="mt-5" alt="Avatar" style="border-radius: 100%;">
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><i class="fa fa-chevron-right"></i> <strong>Age:</strong> 24</li>
+                                    <li><i class="fa fa-chevron-right"></i> <strong>Hobby:</strong> Fishing</li>
+                                    <li><i class="fa fa-chevron-right"></i> <strong>Degree:</strong> S1 Informatika</li>
+                                    <li><i class="fa fa-chevron-right"></i> <strong>Email:</strong> Imamhadid792@gmail.com</li>
+                                    <li><i class="fa fa-chevron-right"></i> <strong>Freelance:</strong> Available</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class="container" id="sosial" data-aos="fade-left" data-aos-offset="800">
-                <div class="mt-5 pt-5" id="mysosial">
-                    <div class="text-center mt-15" id="life">
-                        <h3>Experience</h3>
+
+            </div>
+        </section>
+        <!-- End About Section -->
+
+        <!-- ======= Facts Section ======= -->
+        <section id="facts" class="facts">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Projects</h2>
+                    <p>Saya sangat baru dalam dunia web developer dan masih banyak hal yang perlu saya kembangkan, namun project yang telah saya buat terbilang lumayan walaupn bisa dihitung dengan jari.</p>
+                </div>
+
+                <div class="row no-gutters">
+
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+                        <div class="count-box">
+                            <i class="fa fa-smile-o"></i>
+                            <span data-toggle="counter-up">8</span>
+                            <p><strong>Website developer</strong> sebagai Front-End</p>
+                        </div>
                     </div>
-                    <div class="container mt-5">
-                        <div class="row">
-                            <div class="col text-center">
-                                <h3>Design</h3>
-                                <h5>Event Organaizer</h5>
-                                <div class="row mt-5">
-                                    <div class="col text-center">
-                                        Adobe PhotoShop
-                                        <br>
-                                        Adobe Illustrator
-                                        <br>
-                                        Adobe Premier
-                                        <br>
-                                        Adobe After Effect
-                                    </div>
-                                </div>
+
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+                        <div class="count-box">
+                            <i class="fa fa-camera-retro"></i>
+                            <span data-toggle="counter-up">5</span>
+                            <p><strong>Photographer</strong> acara/iklan</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+                        <div class="count-box">
+                            <i class="fa fa-user"></i>
+                            <span data-toggle="counter-up">6</span>
+                            <p><strong>Hari</strong> waktu terlama untuk menemani dan memberikan layanan support</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+                        <div class="count-box">
+                            <i class="fa fa-indent"></i>
+                            <span data-toggle="counter-up">3.76</span>
+                            <p><strong>IPK</strong> Semester 2</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Facts Section -->
+
+        <!-- ======= Skills Section ======= -->
+        <section id="skills" class="skills section-bg">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Skills</h2>
+                </div>
+
+                <div class="row skills-content">
+
+                    <div class="col-lg-6" data-aos="fade-up">
+
+                        <div class="progress">
+                            <span class="skill">HTML <i class="val">100%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <div class="col text-center">
-                                <h3>FrontEnd</h3>
-                                <h5>
-                                    Hana Galeri
-                                    <br>
-                                    Hingga saat ini
-                                </h5>
-                                <div class="row mt-5">
-                                    <div class="col text-center">
-                                        HTML
-                                        <br>
-                                        Bootstrap
-                                        <br>
-                                        CSS Native
-                                        <br>
-                                        Java Script
-                                        <br>
-                                        PHP
-                                        <br>
-                                        Laravel
-                                    </div>
-                                </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill">CSS <i class="val">90%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <div class="col text-center">
-                                <h3>Mechanic 4x4</h3>
-                                <h5>
-                                    Pt. Transkon Jaya tbk.
-                                    <br>
-                                    Rebuild Mechanic 3 tahun 
-                                </h5>
-                                <div class="row mt-5">
-                                    <div class="col text-center">
-                                        O/H Engine 4x4
-                                        <br>
-                                        O/H Transmission
-                                        <br>
-                                        O/H Transfer 4x4
-                                        <br>
-                                        O/H Diffrential
-                                        <br>
-                                        O/H Steering Rack
-                                    </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill">JavaScript <i class="val">75%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill">PHP/Laravel <i class="val">70%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+
+                        <div class="progress">
+                            <span class="skill">After Effect <i class="val">60%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill">Premier <i class="val">70%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill">Figma <i class="val">70%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill">Photoshop <i class="val">80%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill">Lightroom <i class="val">70%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Skills Section -->
+
+        <!-- ======= Resume Section ======= -->
+        <section id="resume" class="resume">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Resume</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6" data-aos="fade-up">
+                        <h3 class="resume-title">Sumary</h3>
+                        <div class="resume-item pb-0">
+                            <h4>Imam Hadid</h4>
+                            <p><em>Perjalanan yang sangat baru untuk saya mulai dari masuk kedalam dunia Photographer yang baru saya masuk +1 tahun dan saat ini juga sedang mendalam dunia pemprograman web sekitar +5 tahun.</em></p>
+                            <ul>
+                                <li>Location: Balikpapan kota,Kalimantan Timur, 76122</li>
+                                <li>Line: Hadit12</li>
+                                <li>Email: imamhadid792@gmail.com</li>
+                            </ul>
+                        </div>
+
+                        <h3 class="resume-title">Education</h3>
+                        <div class="resume-item">
+                            <h4>S1 Informatika</h4>
+                            <h5>2020 - now</h5>
+                            <p><em>Universitas Mulia, Balikpapan, Kalimantan</em></p>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Teknik Komputer dan Jaringan</h4>
+                            <h5>2012 - 2015</h5>
+                            <p><em>Sekolah Menengah Kejuruan Muhammadiyah Randublatung, Jawa</em></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="resume-title">Professional Experience</h3>
+                        <div class="resume-item">
+                            <h4>Transkon Jaya .tbk - Mechannic Rebuild</h4>
+                            <h5>2017 - 2020</h5>
+                            <p><em>Balikpapan, Kalimantan </em></p>
+                            <ul>
+                                <li>Merakit Mesin Engine 4x4</li>
+                                <li>Merakit Transmission 4x4</li>
+                                <li>Merakit Diffrential 4x4</li>
+                                <li>Merakit Steering 4x4</li>
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Fast Food Indonesia .tbk - Staff Admin</h4>
+                            <h5>2016 - 2017</h5>
+                            <p><em>Balikpapan, Kalimantan</em></p>
+                            <ul>
+                                <li>Adminstrasi keuangan</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class="container" id="media" data-aos="fade-left" data-aos-offset="800">
-                <div id="media">
-                    <div>
-                        <div class="text-center mt-15" id="sosmed">
-                        <h3>Sosial Media</h3>
-                    </div>
-                    <div class="row mt-5 text-center">
-                        <div class="col">
-                            <a href="https://www.instagram.com/adit_vanh/">
-                                <i style="color: black;" class="fa fa-5x fa-instagram" aria-hidden="true"></i>
-                            </a>
-                            <br>
-                            Instagram
-                        </div>
-                        <div class="col">
-                            <a href="https://www.linkedin.com/in/hadit1297/">
-                                <i style="color: black;" class="fa fa-5x fa-linkedin-square" aria-hidden="true"></i>
-                            </a>
-                            <br>
-                            Linkend
-                        </div>
-                        <div class="col">
-                            <a href="https://github.com/imamhadid">
-                                <i style="color: black;" class="fa fa-5x fa-github-square" aria-hidden="true"></i>
-                            </a>
-                            <br>
-                            Github
-                        </div>
-                    </div>
-                    <div class="text-center mt-1">
-                        <i class="fa fa-2x fa-envelope" aria-hidden="true"></i>
-                        <br>
-                        Slow Respon
-                        <br>
-                        E-Mail
-                        <br>
-                        Imamhadid792@gmail.com
-                        <h4 class="mt-15">Kontak Fast Respon</h4>
-                        Line
-                        <br>
-                        <a href="http://line.me/ti/p/hadit120"><img src="path/img/line.png" alt="Line"></a>
-                    </div>
+
+            </div>
+        </section>
+        <!-- End Resume Section -->
+
+        <!-- ======= Portfolio Section ======= -->
+        <section id="portfolio" class="portfolio section-bg">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Portfolio</h2>
+                    <P>Tidak semua web develop dan Foto saya tampilkan disini dikarenakan keinginan client.</P>
+                </div>
+
+                <div class="row" data-aos="fade-up">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <ul id="portfolio-flters">
+                            <li data-filter="*" class="filter-active">All</li>
+                            <li data-filter=".filter-app">Photo</li>
+                            <!-- <li data-filter=".filter-card"></li> -->
+                            <li data-filter=".filter-web">Web</li>
+                        </ul>
                     </div>
                 </div>
-            </section>
-        </main>
-    <footer class="container Text-left mt-15">
-        My Coding Always Made With <i style="color: red;" class="fa fa-heart" aria-hidden="true"></i>
+
+                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/Porto2.JPG" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="assets/img/Porto2.JPG" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="fa fa-plus"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details"><i class="fa fa-link"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/web1.JPG" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="assets/img/web1.JPG" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="fa fa-plus"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details"><i class="fa fa-link"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/porto1.JPG" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="assets/img/porto1.JPG" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="fa fa-plus"></i></a>
+                                <!-- <a href="portfolio-details.html" title="copy link"><i class="fa fa-link"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="fa fa-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/web2.JPG" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="assets/img/web2.JPG" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="fa fa-plus"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details"><i class="fa fa-link"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/porto3.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="assets/img/porto3.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="fa fa-plus"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details"><i class="fa fa-link"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="fa fa-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="fa fa-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/web3.JPG" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="assets/img/web3.JPG" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="fa fa-plus"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details"><i class="fa fa-link"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Portfolio Section -->
+
+        <!-- ======= Services Section ======= -->
+        <!-- <section id="services" class="services">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Services</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+                        <div class="icon"><i class="icofont-computer"></i></div>
+                        <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
+                        <h4 class="title"><a href="">Dolor Sitema</a></h4>
+                        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                        <div class="icon"><i class="icofont-earth"></i></div>
+                        <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+                        <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                        <div class="icon"><i class="icofont-image"></i></div>
+                        <h4 class="title"><a href="">Magni Dolores</a></h4>
+                        <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                        <div class="icon"><i class="icofont-settings"></i></div>
+                        <h4 class="title"><a href="">Nemo Enim</a></h4>
+                        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+                        <div class="icon"><i class="icofont-tasks-alt"></i></div>
+                        <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+                        <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                    </div>
+                </div>
+
+            </div>
+        </section> -->
+        <!-- End Services Section -->
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Contact</h2>
+                </div>
+
+                <div class="row" data-aos="fade-in">
+
+                    <div class="col-lg-12 d-flex align-items-stretch">
+                        <div class="info">
+                            <div class="address">
+                                <i class="fa fa-map-marker"></i>
+                                <h4>Location:</h4>
+                                <p>Balikpapan Kota, Kalimantan Timur, Kalimantan 76122</p>
+                            </div>
+
+                            <div class="email">
+                                <i class="fa fa-envelope-o"></i>
+                                <h4>Email:</h4>
+                                <p>imamhadid792@gmail.com</p>
+                            </div>
+
+                            <div class="phone">
+                                <i class="fa fa-comments"></i>
+                                <h4>Line:</h4>
+                                <p>Hadit12</p>
+                            </div>
+
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2820.545786693898!2d116.83373285349312!3d-1.259670249822256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df1470607778445%3A0xfa845de4e137fcfd!2sMusholla%20Fathur%20Rahman%2C%20Kota%20Balikpapan%2C%20Kalimantan%20Timur%2C%20Indonesia!5e0!3m2!1sid!2sid!4v1628614335397!5m2!1sid!2sid"
+                                width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Contact Section -->
+
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer ">
+        <div class="container ">
+            <div class="copyright ">
+                &copy; Copyright <strong><span>Imam Hadid</span></strong>
+            </div>
+            <div class="credits ">
+                Designed by <a href="# ">Imam Hadid</a>
+            </div>
+        </div>
     </footer>
-    </body>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            AOS.init();
-            window.onload = function() {
-                var iframe = document.createElement('iframe');
-                iframe.style.display = "none";
-                iframe.src = url ;
-                document.body.appendChild(iframe);
-            };
-            $('[data-aos]').parent().addClass('hideOverflowOnMobile');
-        </script>
-        <script src="path/js/main.js"></script>
+    <!-- End  Footer -->
+
+    <a href="# " class="back-to-top "><i class="fa fa-arrow-up "></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js "></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+    <script src="assets/vendor/ "></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js "></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js "></script>
+    <script src="assets/vendor/counterup/counterup.min.js "></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js "></script>
+    <script src="assets/vendor/venobox/venobox.min.js "></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js "></script>
+    <script src="assets/vendor/typed.js/typed.min.js "></script>
+    <script src="assets/vendor/aos/aos.js "></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js "></script>
+
+</body>
+
 </html>
