@@ -223,8 +223,9 @@ h6 {
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("../img/me-1.JPG") top center;
+    /* background: url("../img/me-1.JPG") top center; */
     background-size: cover;
+    background-color:whitesmoke;
 }
 
 #hero:before {
@@ -511,7 +512,6 @@ section {
     background: #fff;
     border: 2px solid #1f5297;
 }
-
 
 /*--------------------------------------------------------------
 # Portfolio

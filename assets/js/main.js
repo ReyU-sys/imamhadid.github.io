@@ -212,3 +212,14 @@ function myFunction() {
     /* Alert the copied text */
     alert("Copied the text: " + copyText.value);
 }
+
+var now = new Date();
+var yearnow = now.getFullYear();
+var myyears = 1997;
+var daynow = now.setDate(12);
+var montnow = now.setMonth(1);
+var myyear = now.setFullYear(1997);
+var date = (now.toLocaleString('default', { month: 'long' }))+' '+ now.getFullYear();
+var result = parseInt(yearnow) - parseInt(myyears);
+document.getElementById("year").innerHTML = result;
+document.getElementById("brith").innerHTML = date;
